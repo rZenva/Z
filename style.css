@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+body {
+  background-color: #2C2E33;
+  font-family: Verdana;
+}
+
+h1 {
+  font-family: 'Whitney Semibold', sans-serif;
+  font-size: 40px;
+  color: #F2F3F5;
+}
+
+li {
+  margin-top: 0px;
+  color: #F2F3F5;
+  font-size: 20px;
+  font-family: 'Whitney Light', sans-serif;
+}
+
+a {
+  margin-top: -5px !important;
+  color: #00A7FA;
+  font-size: 20px;
+  font-family: 'Whitney Light', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00A7FA;
+  font-size: 20px;
+  font-family: 'Whitney Light', sans-serif;
+  text-decoration: underline;
+}
+
+.icon {
+  z-index: 999 !important;
+  float: left;
+  width: 120px;
+  height: 120px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #111214;
+  border-radius: 100px;
+}
+
+.outside {
+  border-radius: 30px;
+  background-color: #232428;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #111214;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 0px 15px #111214;
+}
+
+.inside {
+  border-radius: 10px;
+  background-color: #111214;
+  margin: auto;
+  padding: 10px;
+  width: auto;
+  left: 50%;
+  top: 60%;
+  margin-top: 7px;
+  padding-top: 0.5px !important;
+}
+
+.main-text-margin{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
